@@ -25,6 +25,6 @@ puts journalistes.map(&:downcase).sort
 #les 50 handle les plus court
 puts journalistes.sort_by { |i| i.length }[0..49]
 
-
+#emplacement
 puts journalistes.index("@epenser")
 
